@@ -1,6 +1,6 @@
-# ${project.name} v${project.version}
-version: 3.0
-description: yasurakana nemuri...
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
 author: kana
 main: com.github.agetakoyaki29.suyaa.MyPlugin
 

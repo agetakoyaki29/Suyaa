@@ -90,7 +90,7 @@ public class MyPlugin extends JavaPlugin {
 		// to console
 		ConsoleCommandSender ccs = Bukkit.getConsoleSender();
 		if(plugin.getEnableManager().getEnable(ccs.getName()))
-			ccs.sendMessage(message + "(world: \"" + world.getName() + "\")");
+			ccs.sendMessage(sendMessage + "(world: \"" + world.getName() + "\")");
 
 		// to players
 		worldBroadcast(world, sendMessage);
