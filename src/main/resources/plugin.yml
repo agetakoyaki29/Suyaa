@@ -1,0 +1,30 @@
+# ${project.name} v${project.version}
+version: 3.0
+description: yasurakana nemuri...
+author: kana
+main: com.github.agetakoyaki29.suyaa.MyPlugin
+
+commands:
+  suyaa.enable:
+    description: メッセージのオン・オフ設定コマンド
+    aliases: [sy]
+    usage: |
+           /<command> on|off (player) - メッセージのオン・オフ
+    permission: suyaa.enable
+    permission-message: パーミッション "<permission>" が無いため、実行できません。
+  suyaa.reload:
+    description: リソースの再読み込みコマンド
+    usage: /<command> - リソースの再読み込み
+    permission: suyaa.reload
+    permission-message: パーミッション "<permission>" が無いため、実行できません。
+
+permissions:
+  suyaa.enable:
+    description: suya.enableコマンドの使用権限
+    default: true
+  suyaa.enable-other:
+    description: suya.enableコマンドの使用権限、他人へ
+    default: op
+  suyaa.reload:
+    description: suya.reloadコマンドの使用権限
+    default: op

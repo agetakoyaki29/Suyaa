@@ -1,0 +1,11 @@
+# ${project.name} v${project.version}
+# @author kana
+
+nightTime: 13000
+
+worlds:
+  {}
+
+underground:
+  enabled: false
+  depth: 20

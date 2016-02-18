@@ -1,0 +1,5 @@
+# ${project.name} v${project.version}
+# @author kana
+
+players:
+  {}
